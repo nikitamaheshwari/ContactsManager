@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.contactsmanager.MainActivity"
+    android:backgroundTintMode="screen"
+    android:background="#4d7876">
+
+
+    <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:typeface="serif"
+            android:hint="Username:ni"
+            android:textSize="25sp"
+            android:textColor="#121010"
+        android:background="@drawable/edit"
+
+        android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_alignStart="@+id/editText2"
+            android:layout_alignRight="@+id/button2"
+            android:layout_alignEnd="@+id/button2"
+        android:textStyle="normal"
+        android:width="@dimen/abc_text_size_small_material"
+        android:fontFamily="&quot;Comic Sans MS&quot;, cursive, sans-serif"
+        android:elegantTextHeight="true"
+        android:importantForAccessibility="auto"
+        android:minLines="1"
+        android:nestedScrollingEnabled="true"
+        android:outlineProvider="background"
+        android:singleLine="true"
+        android:focusableInTouchMode="true" />
+
+    <EditText
+            android:id="@+id/editText2"
+            android:background="@drawable/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="25sp"
+
+            android:hint="Password:123"
+            android:typeface="serif"
+            android:password="true"
+            android:textColor="#0f0f0f"
+
+            android:layout_below="@+id/editText1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+        android:fontFamily="&quot;Comic Sans MS&quot;, cursive, sans-serif" />
+
+        <Button
+            android:id="@+id/button1"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/black"
+            android:text="Sign Up"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+
+            android:background="@drawable/edit"
+
+            android:layout_marginTop="44dp"
+            android:layout_below="@+id/editText2"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_alignStart="@+id/editText2"
+            android:fontFamily="&quot;Comic Sans MS&quot;, cursive, sans-serif"
+            style="@style/Widget.AppCompat.ActionButton" />
+
+        <Button
+            android:id="@+id/button2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/black"
+            android:shadowRadius="10"
+            android:text="Sign In"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+
+            android:background="@drawable/edit"
+
+            android:layout_alignTop="@+id/button1"
+            android:layout_alignRight="@+id/editText2"
+            android:layout_alignEnd="@+id/editText2"
+            android:fontFamily="&quot;Comic Sans MS&quot;, cursive, sans-serif"
+            style="@style/Widget.AppCompat.ActionButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contacts manager"
+        android:id="@+id/textView"
+        android:layout_above="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp"
+        android:textColor="#fdf8f8"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:fontFamily="Comic Sans MS"
+        android:typeface="serif"
+        android:shadowColor="#f9f9f9" />
+
+</RelativeLayout>
+
+
